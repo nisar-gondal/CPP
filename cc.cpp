@@ -24,10 +24,10 @@ class CurrencyConvertor{
     void displayExchangeRate()
     const{
         cout<<"\n\t-------Current Exchange Rate-------\n";
-        cout<<"1. 1 USD TO EURO :-"<<usdToEuroRate<<endl;
-        cout<<"2. 1 EURO TO USD:-"<<euroToUsdRate<<endl;
-        cout<<"3. 1 USD TO PKR:-"<<usdToPakRupeeRate<<endl;
-        cout<<"4. 1 USD TO INR:-"<<usdToIndRupeeRate<<endl;
+        cout<<"1. 1 USD TO EURO :"<<usdToEuroRate<<endl;
+        cout<<"2. 1 EURO TO USD:"<<euroToUsdRate<<endl;
+        cout<<"3. 1 USD TO PKR:"<<usdToPakRupeeRate<<endl;
+        cout<<"4. 1 USD TO INR:"<<usdToIndRupeeRate<<endl;
 
     }
 };
@@ -54,25 +54,25 @@ main(){
             case 1:
             cout<<"Enter the Amount in USD:";
             cin>>amount;
-            cout<<amount<<"USD is equal to "<<convertor.usdToEuro(amount)<<"Euros\n";
+            cout<<amount<<" USD is equal to "<<convertor.usdToEuro(amount)<<" Euros\n";
             system("pause");
             break;
             case 2:
             cout<<"Enter the amount of Euro:";
             cin>>amount;
-            cout<<amount<<"Euro is equal to "<<convertor.euroToUsd(amount)<<"USD\n";
+            cout<<amount<<" Euro is equal to "<<convertor.euroToUsd(amount)<<" USD\n";
             system("pause");
             break;
             case 3:
             cout<<"Enter amount of USD:";
             cin>>amount;
-            cout<<amount<<"USD is equal to "<<convertor.usdToPakRupee(amount)<<"Pakistani Rupees\n";
+            cout<<amount<<" USD is equal to "<<convertor.usdToPakRupee(amount)<<" Pakistani Rupees\n";
             system("pause");
             break;
             case 4:
             cout<<"Enter amount in USD:";
             cin>>amount;
-            cout<<amount<<"USD is equal to "<<convertor.usdToIndRupee(amount)<<"Indian Rupees\n";
+            cout<<amount<<" USD is equal to "<<convertor.usdToIndRupee(amount)<<" Indian Rupees\n";
             system("pause");
             break;
             case 0:
